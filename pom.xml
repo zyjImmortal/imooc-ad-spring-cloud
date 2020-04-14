@@ -10,6 +10,7 @@
     <modules>
         <module>ad-eureka</module>
         <module>ad-gateway</module>
+        <module>imooc-ad-service</module>
     </modules>
     <!--这里是主工程，需要设置成pom  默认是jar-->
     <packaging>pom</packaging>
