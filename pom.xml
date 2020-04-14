@@ -9,8 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ad-eureka</module>
+        <module>ad-gateway</module>
     </modules>
-    <!--pom的作用   -->
+    <!--这里是主工程，需要设置成pom  默认是jar-->
     <packaging>pom</packaging>
 
     <name>imooc-ad-spring-cloud</name>
@@ -27,6 +28,7 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
+    <!--通用的依赖-->
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
