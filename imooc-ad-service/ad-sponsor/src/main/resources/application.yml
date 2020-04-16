@@ -1,7 +1,7 @@
 server:
   port: 7000
   servlet:
-    context-path: /ad-sponsor
+    context-path: /ad-sponsor  # http请求的前缀
 
 spring:
   application:
@@ -20,3 +20,8 @@ spring:
     tomcat:
       max-active: 4
       min-idle: 2
+      initial-size: 2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
