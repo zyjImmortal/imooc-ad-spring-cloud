@@ -10,6 +10,7 @@ import java.util.List;
  * @date : 2020-04-17
  */
 public interface CreativeUnitRepository extends JpaRepository<CreativeUnit, Long> {
+
     List<Long> findCreativeByUnitId(Long unitId);
 
     List<Long> findUnitByCreativeId(Long creativeId);
