@@ -35,7 +35,7 @@ public class Creative {
     private Integer width;
 
     @Column(name = "size", nullable = false)
-    private Integer size;
+    private Long size;
 
     @Column(name = "duration", nullable = false)
     private Integer duration;

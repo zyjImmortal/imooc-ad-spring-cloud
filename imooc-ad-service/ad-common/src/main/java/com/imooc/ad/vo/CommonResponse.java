@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class CommonResponse<T> implements Serializable {
+public class CommonResponse<T> extends Response implements Serializable {
     private Integer code;
     private String message;
     private T data;

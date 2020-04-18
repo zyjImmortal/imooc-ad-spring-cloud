@@ -12,5 +12,6 @@ public class Constants {
         public static final String CAN_NOT_FIND_PLAN_RECORD = "对应推广计划不存在";
         public static final String SAME_NAME_PLAN_ERROR = "存在同名推广计划";
         public static final String DELETE_PLAN_NOT_EXIST = "要删除的推广计划不存在";
+        public static final String SAME_NAME_UNIT_ERROR = "推广单元名字已存在";
     }
 }
